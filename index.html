@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drag and Match</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="all-items" id="draggable">
+                    <h3>All Items</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item" data-value="fruit">Mango</li>
+                        <li class="list-group-item" data-value="animal">Lion</li>
+                        <li class="list-group-item" data-value="animal">Tiger</li>
+                        <li class="list-group-item" data-value="fruit">Water melon</li>
+                        <li class="list-group-item" data-value="animal">Giraffe</li>
+                        <li class="list-group-item" data-value="fruit">Apple</li>
+                        <li class="list-group-item" data-value="fruit">Kiwi</li>
+                        <li class="list-group-item" data-value="animal">Monkey</li>
+                        <li class="list-group-item" data-value="fruit">orange</li>
+                        <li class="list-group-item" data-value="animal">Elephant</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div id="fruits">
+                    <h3>Fruits</h3>
+                    <ul class="list-group" id="fruitSection"></ul>
+                </div>
+            </div>
+        <div class="col">
+            <div id="animals">
+                <h3>animals</h3>
+                <ul class="list-group" id="animalSection"></ul>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

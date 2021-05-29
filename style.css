@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.list-group{
+    border: 2px solid black;
+    margin:2%;
+    padding:5%;
+}
+li{
+    padding:2%;
+    margin:2%;
+}
+li:hover{
+    box-shadow: 2px 2px 5px goldenrod;
+}
+h3{
+    text-align:center;
+}
